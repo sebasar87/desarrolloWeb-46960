@@ -4,130 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../css/estilos.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--inicio del header -->
-    <header class="header">
-        <div class="contenedorNav">
-            <a class="contenedorLogo" href="../wareframe/index.html">
-                <img class="logo" src="../assets/img/logo2.png" alt="Logo">
-            </a>
-            <div class="nav-con">
-                <nav class="navegacion">
-                    <ul class="listaNav">
-                    <li class="listaItem"><a class="linkNav" href="../wareframe/index.html">Inicio</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./sabores.html">Sabores</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./promociones.html">Promociones</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./nosotros.html">Nosotros</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./contacto.html">Contacto</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid contenedorNav">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="../assets/img/logo2.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active colorNav" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorNav" aria-current="page" href="./sabores.html">Sabores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorNav" aria-current="page" href="./promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorNav" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorNav" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-    <header/>
+    </header> 
     <!--fin del header -->
     <!--inicio del main -->
     <main>
         <div class="whatsap">
             <a class="anclaFooter" target="_blank" href="http://www.whatsapp.com"><img class="contacto" src="../assets/img/whatsapp.png" alt="whatsapp"></a>
         </div>
-        <h1 class="tituloPrincipal">Nuestros Gustos</h1>
-        <div class="contenedorGustos">
-            <div class="crema">
-                <h2 class="tituloHelados">Crema</h2>
-                <div class="contenedorLista">
-                    <ul class="listaGustos">    
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                    </ul>
+        <h1 class="tituloPrincipal">Nuestros Gustos</h1> 
+        <section class="row m-auto mt-4 container">       
+            <div class="col-12 col-md-6 card crema saborFormato">
+                <div class="card-header">
+                    <h2>Crema</h2>
                 </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="lista">Vainilla</li>
+                    <li class="lista">Chocolate</li>
+                    <li class="lista">Fresa</li>
+                    <li class="lista">Menta</li>
+                    <li class="lista">Café</li>
+                    <li class="lista">Caramelo</li>
+                    <li class="lista">Plátano</li>
+                    <li class="lista">Cookies and Cream (Galletas y crema)</li>
+                    <li class="lista">Frambuesa</li>
+                    <li class="lista">Turrón</li>
+                    <li class="lista">Cocod</li>
+                    <li class="lista">Avellana</li>
+                </ul>
             </div>
-            <div class="agua">
-                <h2 class="tituloHelados">Agua</h2>
-                <div class="contenedorLista">
-                    <ul class="listaGustos">    
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                    </ul>
+            <div class="col-12 col-md-6 card agua saborFormato">
+                <div class="card-header">
+                    <h2>Agua</h2>
                 </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="lista">Limón</li>
+                    <li class="lista">Frambuesa</li>
+                    <li class="lista">Sandía</li>
+                    <li class="lista">Mango</li>
+                    <li class="lista">Fresa</li>
+                    <li class="lista">Piñamelo</li>
+                    <li class="lista">Naranja</li>
+                    <li class="lista">Uva</li>
+                    <li class="lista">Cereza</li>
+                    <li class="lista">Kiwió</li>
+                    <li class="lista">Tamarindo</li>
+                    <li class="lista">Melón</li>
+                </ul>
             </div>
-            <div class="saborEspecial">
-                <h2 class="tituloHelados">Sabores Espaeciales</h2>
-                <div class="contenedorLista">
-                    <ul class="listaGustos">    
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                    </ul>
+            <div class="col-12 col-md-6 card especial saborFormato">
+                <div class="card-header">
+                    <h2>Sabores Espaeciales</h2>
                 </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="lista">Tarta de queso con fresas</li>
+                    <li class="lista">Brownie de chocolate y caramelo</li>
+                    <li class="lista">Menta fresca con trozos de chocolate</li>
+                    <li class="lista">Tiramisú</li>
+                    <li class="lista">Jengibre cítrico</li>
+                    <li class="lista">Praliné de avellanas</li>
+                    <li class="lista">Helado de licor de café</li>
+                </ul>
             </div>
-            <div class="fruta">
-                <h2 class="tituloHelados">Con fruta</h2>
-                <div class="contenedorLista">
-                    <ul class="listaGustos">    
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                        <li class="gusto"><p>Gusto</p></li>
-                    </ul>
+            <div class="col-12 col-md-6 card frutal saborFormato">
+                <div class="card-header">
+                    <h2>Con fruta</h2>
                 </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="lista">Fresa y crema</li>
+                    <li class="lista">Mango Tango</li>
+                    <li class="lista">Frambuesa salvaje</li>
+                    <li class="lista">Piña colada</li>
+                    <li class="lista">Manzana verde</li>
+                    <li class="lista">Melocotón fresco</li>
+                    <li class="lista">Kiwi refrescante</li>
+                    <li class="lista">Mora silvestre</li>
+                    <li class="lista">Cereza dulce</li>
+                    <li class="lista">Sandía fresca</li>
+                    <li class="lista">Uva concord</li>
+                    <li class="lista">Durazno con trozos de durazno</li>
+                </ul>
             </div>
-
-        </div>
+        </section>
     </main>
     <!--fin del main -->
     <!--inicio del footer -->
-    <footer class="footer">
+    <footer class="footer mt-5">
         <div class="contenedorIconos">
             <div class="contenedorContacto">
-                <a class="contenedorLogo" href="../wareframe/index.html">
+                <a class="navbar-brand" href="./index.html">
                     <img class="logo" src="../assets/img/logo2.png" alt="Logo">
                 </a>            
             </div>
@@ -140,5 +139,6 @@
         </div>        
     </footer>
     <!--fin del footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

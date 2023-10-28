@@ -1,286 +1,130 @@
 /*fuente para las letras de la heladeria*/
 @font-face {
-  font-family: 'fuente-heladeria';
-  src: url(../assets/fonts/Yuji_Hentaigana_Akari/YujiHentaiganaAkari-Regular.ttf);
-}
+    font-family: 'fuente-heladeria';
+    src: url(../assets/fonts/Yuji_Hentaigana_Akari/YujiHentaiganaAkari-Regular.ttf);
+    }
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-  font-family:fuente-heladeria;
-  color:rgb(129, 102, 227);
-  text-align: center;
-  font-size:xx-large;
+    font-family:fuente-heladeria;
+    color:rgb(129, 102, 227);
 }
 h2{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(55, 151, 210);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(172, 136, 190);
+    font-size:40px;
 }
 /*especificaciones para el tituloPrincipal*/
 .tituloPrincipal{
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:60px;
+    font-weight: 900;
 }
-p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(55, 151, 210);
-  font-size: large;
-  font-weight: 800;
+p, label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(172, 136, 190);
+    font-size:x-large;
+    font-weight: 800;
 }
-
 body {
-  background-image: url(../assets/img/img2_background.jpeg);
-  }
+    background-image: url(../assets/img/img2_background.jpeg);
+    }
 /* Estilos para el icono de WhatsApp no logre que se moviera con la pantalla */
 .whatsap {
-  position: absolute; /* Posición absoluta */
-  bottom: 15px; /* Distancia desde la parte inferior de la ventana */
-  right: 10px; /* Distancia desde la parte derecha de la ventana */
+    position: fixed; /* Posición absoluta */
+    bottom: 15px; /* Distancia desde la parte inferior de la ventana */
+    right: 10px; /* Distancia desde la parte derecha de la ventana */
 }
 /* Estilos para el icono de WhatsApp (imagen) */
 .whatsap .contacto {
-  width: 50px; /* Ancho del icono de WhatsApp */
-  height: auto; /* Altura automática para mantener la proporción */
+    width: 50px; /* Ancho del icono de WhatsApp */
+    height: auto; /* Altura automática para mantener la proporción */
 }
 /*agregamos caracteristicas al conernedor del navegador*/
-  .contenedorNav{
+.contenedorNav{
     background-color: rgb(232, 187, 220);
-    height: 60px;
+    .logo{
+        margin-top:1px;
+        margin-left:1px;
+        width: 40px;
+    }    
+}
+.navbar-light .navbar-nav .nav-link.active.colorNav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(55, 151, 210);
+    font-size: large;
+    font-weight: 800;
+}
+/*Tarjetas*/
+.tarjetasIndex{
+    text-align: center;
+    text-decoration: none;
+}
+/*contenedor iconos*/
+.contenedorIconos{
     .logo{
         margin-top:1px;
         margin-left:1px;
         width: 40px;
     }
-    /*posicionamos el menu del navegador*/
-    .nav-con{
-      position:absolute;
-      left:850px;
-      top: 30px
-    }
-    .listaNav{
-        list-style: none; 
-        text-align: right;        
-        .listaItem{
-            display:inline-block;
-            
-            .linkNav{
-                text-decoration: none;
-                color: #6f3a92;
-                font-size: 1.2rem;
-                padding-right: 10px ;
-                padding-bottom: 10px;
-                margin: 0;
-            }
-        }
-    }
-}
-
-.tarjetasIndex{
-  width:94%;
-  margin:0 auto;
-  text-align: center;
-  padding-bottom: 10px;
-  .tarjeta{
-      padding-top: 5px;
-      margin-top: 10px;
-      margin-left:100px;
-      margin-right: 100px;
-      display:inline-block;
-      background-color: rgb(232, 187, 220);
-      width: 300px;
-      height:220px;
-  }
-}
-
-/*contenedor iconos*/
-.contenedorIconos{
-  .logo{
-    margin-top:1px;
-    margin-left:1px;
-    width: 40px;
-  }
 }
 .contenedorContacto{
-  display:inline-block;
-  margin-top: 20px;
-  .contenedorLogo{
-    margin-right: 1050px;
-  }
+    display:inline-block;
+    margin-top: 20px;
+    .contenedorLogo{
+        margin-right: 1050px;
+    }
 }
 /*modifica los contenedores de los sabores*/
-.contenedorGustos{
-  width:94%;
-  margin:0 auto;
-  text-align: center;
-  padding-bottom: 10px;
-  font-family: 'Young Serif', serif; 
-    .crema{
-    background-image: url(../assets/img/img6_background_crema.jpeg);
-    width: 300px;
-    height: 400px;   
-    display:inline-block; 
-    margin-top: 10px;
-    .tituloHelados{
-      color: aqua;      
-    }      
-    .contenedorLista{      
-      .listaGustos{
-        list-style: none; 
-        text-align: center;
-      }
-    } 
-  }
-    .agua{
-      background-image: url(../assets/img/img4_background_agua.jpeg);
-      width: 300px;
-      height: 400px;
-      display:inline-block;
-      margin-top: 10px;
-      .tituloHelados{
-        color: aqua;      
-      }      
-      .contenedorLista{        
-        .listaGustos{
-          list-style: none; 
-          text-align: center;
-        }
-      }
+.saborFormato{
+    width: 18rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(184, 154, 200);
+    font-size:x-large;
+    font-weight: 800;
+    margin: 5px;    
+    text-align: center;
+    .lista{
+        list-style:none;
     }
-      .saborEspecial{
-        background-image: url(../assets/img/img3_background_especiales.jpeg);
-        width: 300px;
-        height: 400px;
-        display:inline-block;
-        margin-top: 10px;
-        .tituloHelados{
-          color: aqua;      
-        }      
-        .contenedorLista{        
-          .listaGustos{
-            list-style: none; 
-            text-align: center;
-          }
-        }
-      }
-        .fruta{
-          background-image: url(../assets/img/img5_background_fruta.jpeg);
-          width: 300px;
-          height: 400px;
-          display:inline-block;
-          margin-top: 10px;
-          .tituloHelados{
-            color: aqua;      
-          }      
-          .contenedorLista{        
-            .listaGustos{
-              list-style: none; 
-              text-align: center;
-            }
-          }
-        }    
+}
+.crema{    
+    background-image: url(../assets/img/img6_background_crema.jpeg);    
+}
+.agua{
+    background-image: url(../assets/img/img4_background_agua.jpeg);
+}
+.especial{
+    background-image: url(../assets/img/img3_background_especiales.jpeg);
+}
+.frutal{
+    background-image: url(../assets/img/img5_background_fruta.jpeg);
 }
 /*damos formato a los contenedores de las promociones*/
-.promociones{
-  width:94%;
-  margin:0 auto;
-  text-align: center;
-  padding-bottom: 10px;
-  font-family: 'Young Serif', serif; 
-    .promo1{
-    background-image: url(../assets/img/img6_background_crema.jpeg);
+.imagen{
     width: 300px;
-    height: 200px;   
-    display:inline-block; 
-    margin-top: 10px;
-    }
-    .promo1{
-      background-image: url(../assets/img/img7_background_especiales.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-    .promo2{
-      background-image: url(../assets/img/img3_background_especiales.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-    .promo3{
-      background-image: url(../assets/img/img4_background_agua.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-    .promo4{
-      background-image: url(../assets/img/img5_background_fruta.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-    .promo5{
-      background-image: url(../assets/img/img6_background_crema.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-    .promo6{
-      background-image: url(../assets/img/img_background.jpeg);
-      width: 300px;
-      height: 200px;   
-      display:inline-block; 
-      margin-top: 10px;
-      }
-  }
-.promociones p{
-  color: #aef051;  
-}
-/*damos formato a los contenedores de contacto*/
-/*la idea era alinear al mismo nivel el formulario y el mapa pero no pude lograrlo*/
-.formulario{
-  width: min(60rem, 100%);/*compara entre los dos valores y utiliza el de menor tamaño*/
-  margin: 0;
-  padding-top: 20px;
-}
-.formulario fieldset{
-  border: none;
-}
-.formulario legend{  
-  margin-bottom: 1rem;
-  text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: x-large;
-  font-weight: 700;
-  color: rgb(55, 151, 210);
-}
-.formulario label{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 700;
-  color: rgb(55, 151, 210);
+    height: 400px;
 }
 .contacto{
-  margin-top: 20px;
+    margin-top: 20px;
 }
-/*centramos el video con nuestro trabajo*/
-.trabajo{
-  margin-top: 3rem;
-  margin-left: auto; 
-  margin-right: auto; 
-  text-align: center; 
+.contenedorIconos{
+    text-align: center;
+    .contenedorContacto{
+        text-align: right;
+    }    
 }
-
-
-
-
-
-
-
-
+/*damos formato al footer*/
+.footer{
+    border: 1px;
+    color: rgb(139, 63, 210);
+}
