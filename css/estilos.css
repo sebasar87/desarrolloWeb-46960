@@ -18,21 +18,13 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(172, 136, 190);
-    font-size:40px;
 }
-/*especificaciones para el tituloPrincipal*/
-.tituloPrincipal{
-    margin-bottom: 20px;
-    text-align: center;
-    font-size:60px;
-    font-weight: 900;
-}
-p, label{
+p, label, button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(172, 136, 190);
     font-size:x-large;
-    font-weight: 800;
+    font-weight:800;
 }
 body {
     background-image: url(../assets/img/img2_background.jpeg);
@@ -59,7 +51,7 @@ body {
 }
 .navbar-light .navbar-nav .nav-link.active.colorNav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(55, 151, 210);
+    color: rgb(139, 63, 210);
     font-size: large;
     font-weight: 800;
 }
@@ -116,6 +108,10 @@ body {
 }
 .contacto{
     margin-top: 20px;
+}
+.btn-color{
+    background-color: rgb(139, 63, 210);
+    border: none;
 }
 .contenedorIconos{
     text-align: center;
