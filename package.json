@@ -1,0 +1,19 @@
+{
+  "name": "preentrega",
+  "version": "1.0.0",
+  "description": "proyecto coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasar87/prueba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebasar87/prueba/issues"
+  },
+  "homepage": "https://github.com/sebasar87/prueba#readme"
+}

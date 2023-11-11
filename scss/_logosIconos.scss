@@ -1,0 +1,28 @@
+.whatsap {
+    position: fixed; /* Posición absoluta */
+    bottom: 15px; /* Distancia desde la parte inferior de la ventana */
+    right: 10px; /* Distancia desde la parte derecha de la ventana */
+}
+/* Estilos para el icono de WhatsApp (imagen) */
+.whatsap .contacto {
+    width: 50px; /* Ancho del icono de WhatsApp */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+/*contenedor iconos*/
+.contenedorIconos{
+    text-align: center;
+    .logo{
+        margin-top:1px;
+        margin-left:1px;
+        width: 40px;
+    }
+    .contenedorContacto{
+        text-align: right;
+    } 
+}
+/*.contenedorIconos{
+    text-align: center;
+    .contenedorContacto{
+        text-align: right;
+    }    
+}*/

@@ -1,0 +1,16 @@
+/*agregamos caracteristicas al conernedor del navegador*/
+.contenedorNav{
+    background-color: map-get($colores , color-terciario );
+    .logo{
+        margin-top:1px;
+        margin-left:1px;
+        width: 40px;
+    }    
+}
+.navbar-light .navbar-nav .nav-link.active.colorNav{
+    font-family:$fuente-nav;
+    color:map-get($colores , color-primario );
+    /*color: rgb(139, 63, 210);*/
+    font-size: large;
+    font-weight: 800;
+}

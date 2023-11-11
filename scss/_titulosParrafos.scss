@@ -1,0 +1,17 @@
+/*fuente para las letras de la heladeria*/
+h1{
+    font-family:fuente-heladeria;
+    color:$color-primario;
+}
+h2{
+    font-family:$fuente-h2;
+    color: map-get($colores , color-relleno );
+    -webkit-text-stroke: $tamano-relleno map-get($colores , color-secundario );
+}
+p, label, button{
+    font-family:$fuente-p;
+    color: map-get($colores , color-relleno );
+    -webkit-text-stroke: $tamano-relleno map-get($colores , color-secundario );
+    font-size:x-large;
+    font-weight:800;
+}

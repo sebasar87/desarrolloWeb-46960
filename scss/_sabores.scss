@@ -1,0 +1,26 @@
+/*modifica los contenedores de los sabores*/
+.saborFormato{
+    width: 18rem;
+    font-family: $fuente-p;
+    color: map-get($colores , color-relleno );
+    -webkit-text-stroke: $tamano-relleno map-get($colores , color-secundario );
+    font-size:x-large;
+    font-weight: 800;
+    margin: 5px;    
+    text-align: center;
+    .lista{
+        list-style:none;
+    }
+}
+.crema{    
+    background-image: url(../assets/img/img6_background_crema.jpeg);    
+}
+.agua{
+    background-image: url(../assets/img/img4_background_agua.jpeg);
+}
+.especial{
+    background-image: url(../assets/img/img3_background_especiales.jpeg);
+}
+.frutal{
+    background-image: url(../assets/img/img5_background_fruta.jpeg);
+}

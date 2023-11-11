@@ -1,0 +1,12 @@
+/*damos formato al footer*/
+.footer{
+    border: 1px;
+    color: map-get($colores , color-primario );
+    .contenedorContacto{
+        display:inline-block;
+        margin-top: 20px;
+        .contenedorLogo{
+            margin-right: 1050px;
+        }
+    }
+}

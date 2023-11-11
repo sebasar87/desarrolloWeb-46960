@@ -1,126 +1,150 @@
-/*fuente para las letras de la heladeria*/
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 @font-face {
-    font-family: 'fuente-heladeria';
-    src: url(../assets/fonts/Yuji_Hentaigana_Akari/YujiHentaiganaAkari-Regular.ttf);
-    }
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
+  font-family: "fuente-heladeria";
+  src: url(../assets/fonts/Yuji_Hentaigana_Akari/YujiHentaiganaAkari-Regular.ttf);
+}
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-family:fuente-heladeria;
-    color:rgb(129, 102, 227);
-}
-h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px rgb(172, 136, 190);
-}
-p, label, button{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px rgb(172, 136, 190);
-    font-size:x-large;
-    font-weight:800;
-}
 body {
-    background-image: url(../assets/img/img2_background.jpeg);
-    }
-/* Estilos para el icono de WhatsApp no logre que se moviera con la pantalla */
-.whatsap {
-    position: fixed; /* Posición absoluta */
-    bottom: 15px; /* Distancia desde la parte inferior de la ventana */
-    right: 10px; /* Distancia desde la parte derecha de la ventana */
+  background-image: url(../assets/img/img2_background.jpeg);
 }
+
+/*fuente para las letras de la heladeria*/
+h1 {
+  font-family: fuente-heladeria;
+  color: rgb(129, 102, 227);
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(172, 136, 190);
+}
+
+p, label, button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(172, 136, 190);
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.whatsap {
+  position: fixed; /* Posición absoluta */
+  bottom: 15px; /* Distancia desde la parte inferior de la ventana */
+  right: 10px; /* Distancia desde la parte derecha de la ventana */
+}
+
 /* Estilos para el icono de WhatsApp (imagen) */
 .whatsap .contacto {
-    width: 50px; /* Ancho del icono de WhatsApp */
-    height: auto; /* Altura automática para mantener la proporción */
+  width: 50px; /* Ancho del icono de WhatsApp */
+  height: auto; /* Altura automática para mantener la proporción */
 }
-/*agregamos caracteristicas al conernedor del navegador*/
-.contenedorNav{
-    background-color: rgb(232, 187, 220);
-    .logo{
-        margin-top:1px;
-        margin-left:1px;
-        width: 40px;
-    }    
-}
-.navbar-light .navbar-nav .nav-link.active.colorNav{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(139, 63, 210);
-    font-size: large;
-    font-weight: 800;
-}
-/*Tarjetas*/
-.tarjetasIndex{
-    text-align: center;
-    text-decoration: none;
-}
+
 /*contenedor iconos*/
-.contenedorIconos{
-    .logo{
-        margin-top:1px;
-        margin-left:1px;
-        width: 40px;
-    }
+.contenedorIconos {
+  text-align: center;
 }
-.contenedorContacto{
-    display:inline-block;
-    margin-top: 20px;
-    .contenedorLogo{
-        margin-right: 1050px;
-    }
+.contenedorIconos .logo {
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
 }
-/*modifica los contenedores de los sabores*/
-.saborFormato{
-    width: 18rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px rgb(184, 154, 200);
-    font-size:x-large;
-    font-weight: 800;
-    margin: 5px;    
-    text-align: center;
-    .lista{
-        list-style:none;
-    }
+.contenedorIconos .contenedorContacto {
+  text-align: right;
 }
-.crema{    
-    background-image: url(../assets/img/img6_background_crema.jpeg);    
-}
-.agua{
-    background-image: url(../assets/img/img4_background_agua.jpeg);
-}
-.especial{
-    background-image: url(../assets/img/img3_background_especiales.jpeg);
-}
-.frutal{
-    background-image: url(../assets/img/img5_background_fruta.jpeg);
-}
-/*damos formato a los contenedores de las promociones*/
-.imagen{
-    width: 300px;
-    height: 400px;
-}
-.contacto{
-    margin-top: 20px;
-}
-.btn-color{
-    background-color: rgb(139, 63, 210);
-    border: none;
-}
-.contenedorIconos{
+
+/*.contenedorIconos{
     text-align: center;
     .contenedorContacto{
         text-align: right;
     }    
+}*/
+/*agregamos caracteristicas al conernedor del navegador*/
+.contenedorNav {
+  background-color: rgb(232, 187, 220);
 }
+.contenedorNav .logo {
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link.active.colorNav {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(129, 102, 227);
+  /*color: rgb(139, 63, 210);*/
+  font-size: large;
+  font-weight: 800;
+}
+
 /*damos formato al footer*/
-.footer{
-    border: 1px;
-    color: rgb(139, 63, 210);
+.footer {
+  border: 1px;
+  color: rgb(129, 102, 227);
 }
+.footer .contenedorContacto {
+  display: inline-block;
+  margin-top: 20px;
+}
+.footer .contenedorContacto .contenedorLogo {
+  margin-right: 1050px;
+}
+
+/*Tarjetas*/
+.tarjetasIndex {
+  text-align: center;
+  text-decoration: none;
+}
+
+/*modifica los contenedores de los sabores*/
+.saborFormato {
+  width: 18rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(172, 136, 190);
+  font-size: x-large;
+  font-weight: 800;
+  margin: 5px;
+  text-align: center;
+}
+.saborFormato .lista {
+  list-style: none;
+}
+
+.crema {
+  background-image: url(../assets/img/img6_background_crema.jpeg);
+}
+
+.agua {
+  background-image: url(../assets/img/img4_background_agua.jpeg);
+}
+
+.especial {
+  background-image: url(../assets/img/img3_background_especiales.jpeg);
+}
+
+.frutal {
+  background-image: url(../assets/img/img5_background_fruta.jpeg);
+}
+
+/*damos formato a los contenedores de las promociones*/
+.imagen {
+  width: 300px;
+  height: 400px;
+}
+
+.contacto {
+  margin-top: 20px;
+}
+
+.btn-color {
+  background-color: rgb(129, 102, 227);
+  border: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
