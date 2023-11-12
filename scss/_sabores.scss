@@ -4,8 +4,7 @@
     font-family: $fuente-p;
     color: map-get($colores , color-relleno );
     -webkit-text-stroke: $tamano-relleno map-get($colores , color-secundario );
-    font-size:x-large;
-    font-weight: 800;
+    @include fontsize(x-large,800);
     margin: 5px;    
     text-align: center;
     .lista{
@@ -13,14 +12,50 @@
     }
 }
 .crema{    
-    background-image: url(../assets/img/img6_background_crema.jpeg);    
+    background-image:linear-gradient(to bottom,  rgba(#e3d9ed, 0.4), rgba(#bda6d0, 0.8)), url(../assets/img/img6_background_crema.jpeg);    
 }
 .agua{
-    background-image: url(../assets/img/img4_background_agua.jpeg);
+    background-image:linear-gradient(to bottom,  rgba(#e3d9ed, 0.4), rgba(#bda6d0, 0.8)), url(../assets/img/img4_background_agua.jpeg);
 }
 .especial{
-    background-image: url(../assets/img/img3_background_especiales.jpeg);
+    background-image:linear-gradient(to bottom,  rgba(#e3d9ed, 0.4), rgba(#bda6d0, 0.8)), url(../assets/img/img3_background_especiales.jpeg);
 }
 .frutal{
-    background-image: url(../assets/img/img5_background_fruta.jpeg);
+    background-image:linear-gradient(to bottom,  rgba(#e3d9ed, 0.4), rgba(#bda6d0, 0.8)), url(../assets/img/img5_background_fruta.jpeg);
+}
+.spaceOutLeft {
+    -webkit-animation-name: spaceOutLeft;
+    animation-name: spaceOutLeft;
+}
+@-webkit-keyframes spaceOutLeft {
+    0% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(1) translate(0%, 0%);
+    transform: scale(1) translate(0%, 0%);
+    }
+    100% {
+    opacity: 0;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(0.2) translate(-200%, 0%);
+    transform: scale(0.2) translate(-200%, 0%);
+    }
+}
+@keyframes spaceOutLeft {
+    0% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(1) translate(0%, 0%);
+    transform: scale(1) translate(0%, 0%);
+    }
+    100% {
+    opacity: 0;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(0.2) translate(-200%, 0%);
+    transform: scale(0.2) translate(-200%, 0%);
+    }
 }

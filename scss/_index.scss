@@ -1,5 +1,11 @@
 /*Tarjetas*/
 .tarjetasIndex{
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;      
+}
+.tarjeta{
+    transition: transform 0.5s;
+}
+.tarjeta:hover{
+    transform: scale(1.5);
 }

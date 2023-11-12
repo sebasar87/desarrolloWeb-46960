@@ -3,5 +3,8 @@
 }
 .btn-color{
     background-color: map-get($colores , color-primario );
-    border: none;
+    border:map-get($colores , color-borde ) ;
+}
+.btn-color:hover{
+    background-color:map-get($colores , color-borde ) ;
 }

@@ -1,0 +1,4 @@
+@mixin fontsize ($tamanio,$peso){
+    font-size:$tamanio;
+    font-weight: $peso;
+}
