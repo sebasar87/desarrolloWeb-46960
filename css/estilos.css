@@ -60,6 +60,13 @@ p, label, button {
   text-align: right;
 }
 
+.whatsap {
+  position: fixed;
+  z-index: 2;
+  bottom: 2;
+  right: 2;
+}
+
 /*agregamos caracteristicas al conernedor del navegador*/
 .contenedorNav {
   background-color: rgb(232, 187, 220);
