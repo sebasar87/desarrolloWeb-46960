@@ -8,6 +8,7 @@
     }    
 }
 .navbar-light .navbar-nav .nav-link.active.colorNav{
+    margin:0;
     font-family:$fuente-nav;
     color:map-get($colores , color-primario );
     @include fontsize(large,800);

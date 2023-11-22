@@ -1,7 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 body {
+    min-height: 100vh;
+    margin-bottom: 60px;
     background:linear-gradient(to top, #8166e3, #a172df, #ba80db, #cd90d9, #dba2d9, #dfb0df, #e4bee4, #e8cce9, #ead9f0, #eee5f6, #f4f1f9, #fcfcfc);  
 }
+main {
+    margin-bottom: 10px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

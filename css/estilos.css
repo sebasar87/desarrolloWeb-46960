@@ -7,10 +7,30 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  min-height: 100vh;
+  margin-bottom: 60px;
   background: linear-gradient(to top, #8166e3, #a172df, #ba80db, #cd90d9, #dba2d9, #dfb0df, #e4bee4, #e8cce9, #ead9f0, #eee5f6, #f4f1f9, #fcfcfc);
+}
+
+main {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*fuente para las letras de la heladeria*/
@@ -37,7 +57,8 @@ p, label, button {
 .whatsap {
   position: fixed; /* Posición absoluta */
   bottom: 15px; /* Distancia desde la parte inferior de la ventana */
-  right: 10px; /* Distancia desde la parte derecha de la ventana */
+  right: 15px; /* Distancia desde la parte derecha de la ventana */
+  padding: 0%;
 }
 
 /* Estilos para el icono de WhatsApp (imagen) */
@@ -59,13 +80,6 @@ p, label, button {
   text-align: right;
 }
 
-.whatsap {
-  position: fixed;
-  z-index: 2;
-  bottom: 2;
-  right: 2;
-}
-
 /*agregamos caracteristicas al conernedor del navegador*/
 .contenedorNav {
   background-color: rgb(232, 187, 220);
@@ -77,6 +91,7 @@ p, label, button {
 }
 
 .navbar-light .navbar-nav .nav-link.active.colorNav {
+  margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: rgb(129, 102, 227);
   font-size: large;
@@ -118,15 +133,15 @@ p, label, button {
 
 /*damos formato al footer*/
 .footer {
-  border: 1px;
+  border: 0px;
   color: rgb(129, 102, 227);
 }
 .footer .contenedorContacto {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .footer .contenedorContacto .contenedorLogo {
-  margin-right: 1050px;
+  margin-right: 0px;
 }
 
 /*Tarjetas*/
