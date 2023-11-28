@@ -19,7 +19,6 @@ html {
 
 body {
   min-height: 100vh;
-  margin-bottom: 60px;
   background: linear-gradient(to top, #8166e3, #a172df, #ba80db, #cd90d9, #dba2d9, #dfb0df, #e4bee4, #e8cce9, #ead9f0, #eee5f6, #f4f1f9, #fcfcfc);
 }
 
@@ -144,14 +143,23 @@ p, label, button {
   margin-right: 0px;
 }
 
+.seccionPrincipalIndex {
+  position: sticky;
+  z-index: 1;
+}
+
 /*Tarjetas*/
 .tarjetasIndex {
+  position: sticky;
   text-align: center;
   text-decoration: none;
+  overflow: hidden;
+  z-index: 2; /* Asegura que la tarjeta esté por encima del contenedor */
 }
 
 .tarjeta {
   transition: transform 0.5s;
+  position: relative;
 }
 
 .tarjeta:hover {
