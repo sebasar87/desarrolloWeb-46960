@@ -133,6 +133,7 @@ p, label, button {
 /*damos formato al footer*/
 .footer {
   border: 0px;
+  z-index: 1;
   color: rgb(129, 102, 227);
 }
 .footer .contenedorContacto {
@@ -159,11 +160,11 @@ p, label, button {
 
 .tarjeta {
   transition: transform 0.5s;
-  position: relative;
 }
 
 .tarjeta:hover {
   transform: scale(1.5);
+  margin-bottom: 5px;
 }
 
 /*modifica los contenedores de los sabores*/

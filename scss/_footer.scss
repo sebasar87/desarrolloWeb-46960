@@ -1,6 +1,7 @@
 /*damos formato al footer*/
 .footer{
     border: 0px;
+    z-index: 1;
     color: map-get($colores , color-primario );
     .contenedorContacto{
         display:inline-block;

@@ -12,9 +12,9 @@
 }
 .tarjeta {
     transition: transform 0.5s;
-    position: relative;
 }
 
 .tarjeta:hover{
-    transform: scale(1.5); 
+    transform: scale(1.5);
+    margin-bottom: 5px; 
 }
